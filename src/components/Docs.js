@@ -19,6 +19,7 @@ export default function Docs() {
                 open={open}
                 setOpen={setOpen}
             />
+
         </div>
     )
 }

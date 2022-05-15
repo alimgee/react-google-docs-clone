@@ -39,6 +39,19 @@ export default function ModalComponent({
                     </Typography>
                 </Box>
             </Modal>
+            <Modal
+                open={open}
+                onClose={handleClose}
+                aria-labelledby="modal-modal-title"
+                aria-describedby="modal-modal-description"
+            >
+                <Box sx={style}>
+                    <input
+                        placeholder='Add the Title'
+                        className='add-input'
+                    />
+                </Box>
+            </Modal>
         </div>
     );
 }
